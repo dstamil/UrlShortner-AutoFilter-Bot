@@ -50,12 +50,12 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/suppooortv')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/How_To_Download_MDisk_Links/10')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001888886560))
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_downloadk/29')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001820156278))
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001820156278))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
